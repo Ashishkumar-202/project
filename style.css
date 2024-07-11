@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: 'poppins', sans-serif;
+    color: white;
+    background-color: rgb(1, 1, 40);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(18, 18, 81);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(112, 112, 231);
+    /* font-size: 1.04rem; */
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.firstsection>div {
+    width: 40%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(169, 109, 226);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(169, 109, 226);
+}
+
+.secondsection {
+
+    margin: 87px;
+    max-width: 87vw;
+    height: 100vh;
+}
+
+.secondsection h1 {
+    font-size: 2.9rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 50px 84px;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 40px 45px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 73px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+.footer {
+    background-color: lavender;
+}
+
+.flex {
+    display: relative;
+}
+
+.footer-first {
+    text-align: center;
+    height: 60px;
+    background-color: rgb(8, 8, 49);
+}
+
+.contact-form H2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.col-12 {
+    height: 116px;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: -49px;
+}
+
+.project-container {
+    margin: 10px;
+    max-width: 35vw;
+    height: 200vh;
+}
+
+.row2 {
+    box-sizing: border-box;
+    display: flex;
+    margin-right: -134px;
+    margin-left: 100px;
+}
+
+
+.col-lg-4 col-sm-6-mb-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.card-body {
+    width: 295px;
+    margin: 18px;
+    line-height: 1.6;
+}
+
+.clone {
+    padding: 5px;
+    width: 306px;
+    height: 211px;
+}
+
+.text {
+    font-size: 18px;
+    margin-block-start: 23px;
+    color: gray;
+}
+.mb-3{
+    font-weight: 700;
+  line-height: 1.4;
+}
